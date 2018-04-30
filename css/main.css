@@ -1,0 +1,102 @@
+/* CSS Document */
+
+/*import fonts*/
+/*@import url("https://use.typekit.net/lwk5jup.css" );*/
+
+.nav{
+/*	padding: 4em;*/
+	max-width:80%;
+}
+
+.nav ul{
+	display: flex;
+	text-align: right;
+}
+
+.nav ul li{
+	flex-direction: row-reverse;
+/*	justify-content: flex-end;*/
+	padding: 3em 3em 0em 3em;
+/*	font-family: "P22 Underground Medium", "Futura PT Medium", "Futura Medium", Helvetica, "sans-serif";*/
+	
+}
+
+.nav ul li a{
+	color: white;
+	text-decoration: none;
+	padding-top: 2em;
+	margin:0 auto;
+}
+
+.logo{
+	width: 5em;
+	height: 5em;
+}
+
+.logo-container{
+	padding: 3em 3em 0em 3em;
+}
+
+.header{
+	background-color: #5bc6e4;
+}
+
+
+.footer{
+	text-align:center;
+	padding: 0.5em;
+	background-color: #f9d433;
+/*	font-family:"P22 Underground Medium", "Futura PT Medium", "Futura Medium", Helvetica, "sans-serif";*/
+}
+
+.splash h4{
+	font-family: 'ITC Grouch', 'Inria Serif Bold', 'Futura PT Bold', 'serif';
+	font-size: 4em;
+}
+
+.splash{
+	padding: 1em 3em 0em 3em;
+}
+
+#signup{
+	background-color: whitesmoke;
+	margin-bottom: 2em;
+}
+
+.triplet{
+	display: flex;
+	flex-direction: row;
+	padding: 3em 3em 3em 3em;
+}
+
+.snapshot{
+	padding-top: 16em;
+	padding-bottom: 1em; 
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-left: 3em;
+	margin-right: 3em;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-family: "P22 Underground DemiBold", "P22 Underground Medium", "Futura PT Medium", "Futura Medium", Helvetica, "sans-serif";
+
+}
+
+.m{
+	border-color: #de51e0;
+	border-style: solid;
+	border-width: thick;
+}
+
+.s{
+	border-color: #f9d433;
+	border-style: solid;
+	border-width: thick;
+}
+
+.pr{
+	border-color: #f5ab2b;
+	border-style: solid;
+	border-width: thick;
+}
