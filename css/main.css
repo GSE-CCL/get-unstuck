@@ -5,7 +5,7 @@
 
 .nav{
 /*	padding: 4em;*/
-	max-width:80%;
+/*	max-width:100%;*/
 }
 
 .nav ul{
@@ -34,7 +34,7 @@
 }
 
 .logo-container{
-	padding: 3em 3em 0em 3em;
+	padding: 1em 3em 0em 3em;
 }
 
 .header{
@@ -44,9 +44,17 @@
 
 .footer{
 	text-align:center;
-	padding: 0.5em;
+/*	height: 30px;*/
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 	background-color: #f9d433;
+/*	display: flex;*/
 /*	font-family:"P22 Underground Medium", "Futura PT Medium", "Futura Medium", Helvetica, "sans-serif";*/
+}
+
+.footer p{
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 .splash h4{
@@ -58,9 +66,27 @@
 	padding: 1em 3em 0em 3em;
 }
 
+.page-title h4{
+	font-family: 'ITC Grouch', 'Inria Serif Bold', 'Futura PT Bold', 'serif';
+	font-size: 4em;
+	text-align: center;
+}
+
+.page-title p{
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
 #signup{
 	background-color: whitesmoke;
 	margin-bottom: 2em;
+}
+
+.triplet-card{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0em 3em 3em 3em;
 }
 
 .triplet{
@@ -69,18 +95,36 @@
 	padding: 3em 3em 3em 3em;
 }
 
+.twin-card{
+	display: flex;
+	flex-direction: row;
+	padding: 0em 3em 3em 3em;
+}
+
 .snapshot{
-	padding-top: 16em;
-	padding-bottom: 1em; 
-	padding-left: 1em;
-	padding-right: 1em;
-	margin-left: 3em;
-	margin-right: 3em;
+	padding: 1em;
+/*	margin-top: 10em;*/
+	margin-left: 6em;
+	margin-right: 6em;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	font-family: "P22 Underground DemiBold", "P22 Underground Medium", "Futura PT Medium", "Futura Medium", Helvetica, "sans-serif";
+	font-weight: 400;
+	font-family: "p22-underground", "futura-pt", Helvetica, "sans-serif";
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	flex-wrap: wrap;
+	width: 100px;
+	height: 400px;
+	box-sizing: border-box;
 
+}
+
+.snapshot a{
+	text-decoration: none;
+/*	margin: 0 auto;*/
 }
 
 .m{
@@ -99,4 +143,60 @@
 	border-color: #f5ab2b;
 	border-style: solid;
 	border-width: thick;
+}
+
+.card-name {
+	font-family:"p22-underground", "futura-pt", Helvetica, "sans-serif";
+	font-weight: 600;
+/*	margin-bottom: 2em;*/
+	margin-top: 2em;
+	padding-top: 8em;
+	position: relative;
+}
+
+.card-image{
+	padding-top: 1em;
+	height: 45%;
+	width: 65%;
+/*	position: absolute;*/
+}
+
+.card-page-img img{
+	width: 35%;
+	height: 50%;
+	display: block;
+	margin: 0 auto;
+	
+}
+
+.card-page-img{
+	padding-top: 2em;
+	padding-left: 3em;
+}
+
+.challenge{
+	padding: 1em;
+/*	margin-top: 10em;*/
+	margin-left: 6em;
+	margin-right: 6em;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-weight: 400;
+	font-family: "p22-underground", "futura-pt", Helvetica, "sans-serif";
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+}
+
+.challenge img{
+	width: 75%;
+}
+
+.challenge-text h2{
+	font-family: 'ITC Grouch', 'Inria Serif Bold', 'Futura PT Bold', 'serif';
+	font-size: 2em;
 }

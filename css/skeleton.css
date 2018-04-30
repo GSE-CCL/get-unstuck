@@ -32,7 +32,7 @@
 .container {
   position: relative;
   width: 100%;
-  max-width: 1200px;
+/*  max-width: 1200px;*/
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
@@ -124,8 +124,8 @@ html {
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
-  font-weight: 400;
-  font-family: 'P22 Underground Medium', 'Futura PT Medium', 'Futura Medium', Helvetica, 'sans-serif';
+  font-weight: 500;
+  font-family: 'p22-underground', Helvetica, 'sans-serif';
   color: #222; 
 }
 /*changed font-family*/
@@ -159,8 +159,10 @@ p {
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
 a {
   color: #1EAEDB; }
+*/
 a:hover {
   color: #0FA0CE; }
 
