@@ -1,36 +1,7 @@
 /* CSS Document */
 
-/*import fonts*/
-/*@import url("https://use.typekit.net/lwk5jup.css" );*/
-
-.nav{
-	display: flex;
-}
-
-/*.nav ul{
-	display: flex;
-
-	/*text-align: right;*/
-
-
-/*.nav ul li{
-	flex-direction: row-reverse;
-/*	justify-content: flex-end;*/
-	/*padding: 3em 3em 0em 3em;*/
-/*	font-family: "P22 Underground Medium", "Futura PT Medium", "Futura Medium", Helvetica, "sans-serif";*/
-
-
-
-/*.nav ul li a{
-	color: white;
-	text-decoration: none;
-	padding-top: 2em;
-	margin:0 auto;
-}*/
-
 .Navbar {
   display: flex;
-  /*padding: 16px;*/
   color: white;
 	padding-right: 3em;
 }
@@ -55,13 +26,16 @@
 @media only screen and (max-width: 768px) {
   .Navbar__Items,
   .Navbar {
-    flex-direction: column;
+    flex-direction: row;
   }
 .Navbar__Items {
     display:none;
   }
 .Navbar__Items--right {
-    margin-left:0;
+    margin-left:0 auto;
+		padding-top: 1em;
+		display: flex;
+		flex-direction: column;
   }
 .Navbar__ToggleShow {
     display: flex;
