@@ -101,6 +101,36 @@
 	padding: 0em 3em 0em 3em;
 }
 
+.form {
+  padding: 0em 3em 0em 3em;
+}
+
+.form-input {
+  width: 24em;
+  height: 5em;
+}
+.form-checkboxes ul li:first-child {
+  margin-top: 1em;
+}
+
+.form-checkboxes ul li {
+  margin-bottom: 0;
+}
+
+.form-checkboxes ul li label {
+  display: inline;
+  padding-left: 1em;
+}
+
+.form-contact {
+  display: flex;
+}
+
+.form-contact-div{
+  padding-right: 2em;
+}
+
+
 #signup{
 	background-color: whitesmoke;
 	margin-bottom: 2em;
