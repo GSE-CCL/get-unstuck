@@ -131,6 +131,10 @@
 }
 
 
+#mc_embed_signup .mc-field-group {
+    padding-bottom: 0%;
+}
+
 #signup{
 	background-color: whitesmoke;
 	margin-bottom: 2em;
