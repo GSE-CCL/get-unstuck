@@ -131,7 +131,9 @@
   padding-right: 2em;
 } */
 
-
+#mc_embed_signup{
+    padding: 0em 3em 0em 3em;
+}
 #mc_embed_signup .mc-field-group {
     padding-bottom: 0%;
 }
