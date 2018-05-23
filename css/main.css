@@ -109,6 +109,11 @@
   width: 24em;
   height: 5em;
 }
+
+.form-container{
+  width: 50%;
+}
+
 .form-checkboxes ul li:first-child {
   margin-top: 0.5em;
 }
