@@ -122,17 +122,26 @@
   padding-left: 1em;
 }
 
-.form-contact {
+/* .form-contact {
   display: flex;
-}
+  flex-direction: row;
+} */
 
-.form-contact-div{
+/* .form-contact-div{
   padding-right: 2em;
-}
+} */
 
 
 #mc_embed_signup .mc-field-group {
     padding-bottom: 0%;
+}
+
+input{
+  margin-bottom: 0em;
+}
+
+h5{
+  margin-bottom: 0rem;
 }
 
 #signup{
