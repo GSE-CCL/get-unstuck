@@ -188,7 +188,7 @@ h5{
 	position: relative;
 	flex-wrap: wrap;
 	width: 200px;
-	height: 400px;
+	height: 250px;
 	box-sizing: border-box;
 
 }
@@ -220,15 +220,15 @@ h5{
 	font-family:"p22-underground", "futura-pt", Helvetica, "sans-serif";
 	font-weight: 600;
 /*	margin-bottom: 2em;*/
-	margin-top: 2em;
-	padding-top: 8em;
+	/* margin-top: 2em;
+	padding-top: 8em; */
 	position: relative;
 }
 
 .card-image{
 	padding-top: 1em;
-	height: 45%;
-	width: 65%;
+	/* height: 75%; */
+	width: 80%;
 /*	position: absolute;*/
 }
 
