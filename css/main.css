@@ -114,6 +114,10 @@
   width: 50%;
 }
 
+.form-section{
+  padding-top: 0.5rem;
+}
+
 .form-checkboxes ul li:first-child {
   margin-top: 0.5em;
 }
