@@ -133,7 +133,7 @@ body {
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
+  margin-top: 0.5rem;
   margin-bottom: 0;
   font-weight: 300; }
 h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
@@ -239,9 +239,11 @@ input[type="password"],
 textarea,
 select {
   height: 38px;
+  width: 250px;
   padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
   border: 1px solid #D1D1D1;
+  margin-bottom: 0.5rem;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box; }
@@ -275,7 +277,8 @@ select:focus {
 label,
 legend {
   display: block;
-  margin-bottom: .5rem;
+  margin: .5rem 0 .5rem 0;
+  /* margin-bottom: .5rem; */
   font-weight: 600; }
 fieldset {
   padding: 0;
