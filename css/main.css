@@ -1,9 +1,8 @@
 /* CSS Document */
 @font-face {
     font-family: ITC Grouch;
-    src: url("fonts/GrouchITCbyBT-Regular.otf") format("opentype");
+    src: local("fonts/GrouchITCbyBT-Regular.otf") format("opentype");
 }
-
 
 .nav {
   display: flex;
