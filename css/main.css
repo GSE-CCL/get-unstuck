@@ -1,4 +1,9 @@
 /* CSS Document */
+@font-face {
+    font-family: ITC Grouch;
+    src: url("fonts/GrouchITCbyBT-Regular.otf") format("opentype");
+}
+
 
 .nav {
   display: flex;
@@ -91,15 +96,19 @@
 	padding-right: 3em;
 }
 
-.page-content h6{
-	font-weight: 900;
-	padding: 0em 3em 0em 3em;
-}
-
-.page-content p{
+.page-content {
 	font-weight: 400;
 	padding: 0em 3em 0em 3em;
 }
+
+.page-content p + ul{
+  margin-top: -10px;
+}
+
+.page-content li{
+  margin-bottom: 0;
+}
+
 
 .form {
   padding: 0em 3em 0em 3em;
