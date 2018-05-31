@@ -4,6 +4,21 @@
     src: url("/fonts/GrouchITCbyBT-Regular.otf") format("opentype");
 } */
 
+html, body {
+  height: 100%;
+}
+/* not sure if this works? */
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  flex: 1 0 auto;
+  /* min-height: 100vh; */
+}
+
 .nav {
   display: flex;
   color: white;
@@ -39,6 +54,10 @@
 		display: flex;
 		flex-direction: column;
   }
+
+  .splash {
+    padding-bottom: 0;
+  }
 }
 
 .nav-link a{
@@ -48,8 +67,8 @@
 }
 
 .logo{
-	width: 5em;
-	height: 5em;
+	width: 4em;
+	height: 4em;
 }
 
 .logo-container{
@@ -58,8 +77,29 @@
 
 .header{
 	background-color: #5bc6e4;
+  /* flex: 1 0 auto; */
 }
 
+.splash{
+  padding: 6em 3em 6em 3em;
+  font-size: 1.1em;
+  display: flex;
+  /* min-height: 70%; */
+  flex: 2;
+  flex-wrap: wrap;
+  /* flex: 1; */
+  background-color: #5bc6e4;
+  /* flex-direction: column; */
+  /* align-items: stretch; */
+  /* overflow-y: auto; */
+  /* position: absolute; */
+}
+
+@media (min-width: 1000px) {
+  .splash{
+    padding-bottom: 12em;
+  }
+}
 
 .footer{
 	text-align:center;
@@ -73,19 +113,6 @@
 }
 
 
-html, body {
-  height: 100%;
-}
-
-body{
-  display: flex;
-  flex-direction: column;
-}
-
-.content {
-  flex: 1 0 auto;
-}
-
 .footer p{
 	margin-top: 1em;
 	margin-bottom: 1em;
@@ -96,11 +123,10 @@ h4{
 	font-size: 3em;
 }
 
-.header-splash{
-	padding: 1em 3em 0em 6em;
-  font-size: 1.1em;
-  height: 100%;
+h5{
+  margin-bottom: 0rem;
 }
+
 
 #header-img{
   width: 105%;
@@ -108,6 +134,7 @@ h4{
 }
 
 .page-title h4{
+  padding-top: 0.5em;
 	font-family: 'Gastromond', 'Futura PT Bold', 'serif';
 	font-size: 4em;
 	text-align: center;
@@ -131,7 +158,6 @@ h4{
 .page-content li{
   margin-bottom: 0;
 }
-
 
 .form {
   padding: 0em 3em 0em 3em;
@@ -163,22 +189,8 @@ h4{
   padding-left: 1em;
 }
 
-/* .form-contact {
-  display: flex;
-  flex-direction: row;
-} */
-
-/* .form-contact-div{
-  padding-right: 2em;
-} */
-
-
 input{
   margin-bottom: 0em;
-}
-
-h5{
-  margin-bottom: 0rem;
 }
 
 #signup{
