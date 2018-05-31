@@ -1,8 +1,8 @@
 /* CSS Document */
-@font-face {
+/* @font-face {
     font-family: ITC Grouch;
     src: url("/fonts/GrouchITCbyBT-Regular.otf") format("opentype");
-}
+} */
 
 .nav {
   display: flex;
@@ -91,8 +91,8 @@ body{
 	margin-bottom: 1em;
 }
 
-.header-splash h4{
-	font-family: 'ITC Grouch', 'Inria Serif Bold', 'Futura PT Bold', 'serif';
+h4{
+	font-family: 'Gastromond', 'Futura PT Bold', 'serif';
 	font-size: 3em;
 }
 
@@ -108,7 +108,7 @@ body{
 }
 
 .page-title h4{
-	font-family: 'ITC Grouch', 'Inria Serif Bold', 'Futura PT Bold', 'serif';
+	font-family: 'Gastromond', 'Futura PT Bold', 'serif';
 	font-size: 4em;
 	text-align: center;
 	margin: 0;
@@ -320,6 +320,6 @@ h5{
 }
 
 .challenge-text h2{
-	font-family: 'ITC Grouch', 'Inria Serif Bold', 'Futura PT Bold', 'serif';
+	font-family: 'Gastromond', 'Futura PT Bold', 'serif';
 	font-size: 2em;
 }
