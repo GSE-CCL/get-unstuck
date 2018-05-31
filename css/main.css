@@ -100,7 +100,7 @@
 	padding: 0em 3em 0em 3em;
 }
 
-.page-content p + ul{
+.page-content ul{
   margin-top: -10px;
 }
 
