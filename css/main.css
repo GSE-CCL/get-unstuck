@@ -283,6 +283,11 @@ input{
   padding: 0rem 2rem 4% 2rem;
 }
 
+.row-card-last{
+  /* padding: 0em 3em 3em 3em; */
+  padding: 0rem 2rem 4% 2rem;
+}
+
 /* not sure if I need triplet-card and triplet to work... */
 .triplet-card{
 	display: flex;

@@ -32,14 +32,15 @@
 
 
 <!--js -->
-<script>
-var cards = $(".card-container");
-for(var i = 0; i < cards.length; i++){
-  var target = Math.floor(Math.random() * cards.length -1) + 1;
-  var target2 = Math.floor(Math.random() * cards.length -1) +1;
-  cards.eq(target).before(cards.eq(target2));
-}
-</script>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+<script
+  src="js/script.js"></script>
+
 
 </head>
 <body>
@@ -182,8 +183,6 @@ for(var i = 0; i < cards.length; i++){
     </div>
   </div>
 </div>
-
-<!-- COPY THE NEXT ROW -->
 
 <div class="row row-card">
   <div class="three columns s card-container">
@@ -329,8 +328,8 @@ for(var i = 0; i < cards.length; i++){
   </div>
 </div>
 
-<div class="row row-card">
-  <div class="three columns s card-container">
+<div class="row row-card-last">
+  <div class="three columns s">
       <div class="content-overlay"></div>
       <img src="images/strategy/strategyArtboard 34.png" class="card-image" alt="answer someone's question">
       <div class="card-details fadeIn-bottom">
