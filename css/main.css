@@ -24,6 +24,10 @@ html {
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
   }
 
+  /* .card-container{
+    margin-bottom: 4%;
+  } */
+
 }
 
 /* Larger than phablet (also point when grid becomes active) */
@@ -40,6 +44,10 @@ html {
     font-size: calc(16px + 6 * ((100vw - 600px) / 680));
   }
 
+  /* .splash{
+    height: calc(50vh);
+  } */
+
 }
 
 /* Larger than desktop */
@@ -47,6 +55,9 @@ html {
   html {
     font-size: 22px;
   }
+  /* .splash{
+    height: calc(50vh);
+  } */
 
 }
 
@@ -55,9 +66,12 @@ html {
   html {
     font-size: 22px;
   }
+/*
+  .splash{
+    height: calc(58vh + 2rem);
+  } */
 
 }
-
 
 html, body {
   height: 100%;
@@ -67,6 +81,7 @@ html, body {
 body{
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 .container{
@@ -76,6 +91,7 @@ body{
 
 .container-splash{
   background-color: #5bc6e4;
+  flex: 1;
 }
 
 .nav {
@@ -94,7 +110,7 @@ body{
   display: flex;
 }
 .nav-right {
-	padding-top: 2em;
+	padding-top: 1rem;
 	margin-left:auto;
   display: flex;
 }
@@ -113,17 +129,13 @@ body{
   }
 .nav-right {
     margin-left:0 auto;
-		padding-top: 1em;
+    padding: 1em 0em 1em 0em;
 		display: flex;
 		flex-direction: column;
   }
 
   .nav-link a{
     text-display: none;
-  }
-
-  .splash {
-    padding-bottom: 0;
   }
 
 }
@@ -152,22 +164,11 @@ body{
   padding: 6em 3em 0em 3em;
   font-size: 1.1em;
   display: flex;
-  /* min-height: 70%; */
-  /* flex: 2; */
+  /* height: calc(58vh + 1rem); */
   flex-wrap: wrap;
-  /* flex: 1; */
-
-  /* flex-direction: column; */
-  /* align-items: stretch; */
-  /* overflow-y: auto; */
-  /* position: absolute; */
 }
 
-@media (min-width: 1000px) {
-  .splash{
-    padding-bottom: 12em;
-  }
-}
+
 
 .footer{
 	text-align:center;
@@ -197,7 +198,7 @@ h5{
 
 /* Link transition for hover (increasing accessibility) */
 a {
-	color: #6dd4b1;
+	color: #581280;
 	transition: color 0.25s linear;
   text-decoration: underline;
 }
@@ -278,7 +279,8 @@ input{
 }
 
 .row-card{
-  padding: 0em 3em 3em 3em;
+  /* padding: 0em 3em 3em 3em; */
+  padding: 0rem 2rem 4% 2rem;
 }
 
 /* not sure if I need triplet-card and triplet to work... */
@@ -438,7 +440,7 @@ input{
 .card-container{
   position: relative;
   width: 100%;
-  margin-left: 4%;
+  /* margin-left: 4%; */
   overflow: hidden;
 }
 
@@ -452,6 +454,9 @@ input{
 
 }
 
+#splash{
+  padding-bottom: 10em;
+}
 
 .card-container:hover .content-overlay {
   opacity: 1;
