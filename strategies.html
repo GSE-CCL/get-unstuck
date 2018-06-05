@@ -15,14 +15,13 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<!--  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">-->
+	<link rel="stylesheet" href="https://use.typekit.net/lwk5jup.css">
 
   <!-- CSS
  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
 <!--  <link rel="stylesheet" href="https://use.typekit.net/lwk5jup.css" />-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.typekit.net/lwk5jup.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/main.css">
@@ -30,6 +29,17 @@
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
+
+
+<!--js -->
+<script>
+var cards = $(".card-container");
+for(var i = 0; i < cards.length; i++){
+  var target = Math.floor(Math.random() * cards.length -1) + 1;
+  var target2 = Math.floor(Math.random() * cards.length -1) +1;
+  cards.eq(target).before(cards.eq(target2));
+}
+</script>
 
 </head>
 <body>
@@ -63,58 +73,272 @@
    	  <h4>Strategies</h4>
       <p>If you're feeling stuck on a problem, try out one of these strategies! Hover over each image for more detail.</p>
 	</div>
-  <div class="row triplet-card">
-    <img src="images/strategy/strategyArtboard 1.png" class="three columns s card-image">
-    <img src="images/strategy/strategyArtboard 6.png" class="three columns s card-image">
-    <img src="images/strategy/strategyArtboard 7.png" class="three columns s card-image">
-    <img src="images/strategy/strategyArtboard 8.png" class="three columns s card-image">
+
+
+  <div class="row row-card">
+    <div class="three columns s card-container">
+        <div class="content-overlay"></div>
+        <img src="images/strategy/strategyArtboard 1.png" class="card-image" alt="a stack at a time">
+        <div class="card-details fadeIn-bottom">
+          <h3>a stack at a time</h3>
+          <p>Click on a stack to run only that part of your project. Does it work? Click on another stack.</p>
+        </div>
+    </div>
+    <div class="three columns s card-container">
+      <div class="content-overlay"></div>
+      <img src="images/strategy/strategyArtboard 6.png" class="card-image" alt="project talk">
+      <div class="card-details fadeIn-bottom">
+        <h3>project talk</h3>
+        <p>Make your project talk to you! Add extra "say" blocks in-between the blocks you're testing, to see if all of your blocks are being read by your project.</p>
+      </div>
+
+    </div>
+    <div class="three columns s card-container">
+      <div class="content-overlay"></div>
+      <img src="images/strategy/strategyArtboard 7.png" class="card-image" alt="try something else">
+      <div class="card-details fadeIn-bottom">
+        <h3>try something else</h3>
+        <p>There are many ways to do the same thing in Scratch. What's another way you might try?</p>
+      </div>
+    </div>
+    <div class="three columns s card-container">
+      <div class="content-overlay"></div>
+      <img src="images/strategy/strategyArtboard 8.png" class="card-image" alt="problem? opportunity!">
+      <div class="card-details fadeIn-bottom">
+        <h3>problem? opportunity!</h3>
+        <p>Are you stuck on a problem? What are some new opportunities?</p>
+      </div>
+    </div>
   </div>
 
-  <div class="row triplet-card">
-    <img src="images/strategy/strategyArtboard 9.png" class="three columns s card-image">
-    <img src="images/strategy/strategyArtboard 32.png" class="three columns s card-image">
-    <img src="images/strategy/strategyArtboard 22.png" class="three columns s card-image">
-    <img src="images/strategy/strategyArtboard 11.png" class="three columns s card-image">
+<div class="row row-card">
+  <div class="three columns s card-container">
+      <div class="content-overlay"></div>
+      <img src="images/strategy/strategyArtboard 9.png" class="card-image" alt="draw a diagram">
+      <div class="card-details fadeIn-bottom">
+        <h3>header here</h3>
+        <p>This one has a header!</p>
+      </div>
   </div>
-
-  <div class="row triplet-card">
-    <img src="images/strategy/strategyArtboard 15.png" class="three columns s card-image">
-    <img src="images/strategy/strategyArtboard 13.png" class="three columns s card-image">
-    <img src="images/strategy/strategyArtboard 14.png" class="three columns s card-image">
-    <img src="images/strategy/strategyArtboard 16.png" class="three columns s card-image">
-  </div>
-
-  <div class="row triplet-card">
-    <img src="images/strategy/strategyArtboard 17.png" class="three columns s card-image">
-    <img src="images/strategy/strategyArtboard 18.png" class="three columns s card-image">
-    <img src="images/strategy/strategyArtboard 19.png" class="three columns s card-image">
-    <img src="images/strategy/strategyArtboard 20.png" class="three columns s card-image">
-  </div>
-
-  <div class="row triplet-card">
-    <img src="images/strategy/strategyArtboard 21.png" class="three columns s card-image">
-    <img src="images/strategy/strategyArtboard 12.png" class="three columns s card-image">
-    <img src="images/strategy/strategyArtboard 23.png" class="three columns s card-image">
-    <img src="images/strategy/strategyArtboard 24.png" class="three columns s card-image">
-  </div>
-
-  <div class="row triplet-card">
-    <img src="images/strategy/strategyArtboard 25.png" class="three columns s card-image">
-    <img src="images/strategy/strategyArtboard 26.png" class="three columns s card-image">
-    <img src="images/strategy/strategyArtboard 27.png" class="three columns s card-image">
-    <img src="images/strategy/strategyArtboard 28.png" class="three columns s card-image">
-  </div>
-
-    <div class="row triplet-card">
-      <img src="images/strategy/strategyArtboard 29.png" class="three columns s card-image">
-      <img src="images/strategy/strategyArtboard 30.png" class="three columns s card-image">
-      <img src="images/strategy/strategyArtboard 31.png" class="three columns s card-image">
-      <img src="images/strategy/strategyArtboard 10.png" class="three columns s card-image">
+  <div class="three columns s card-container">
+    <div class="content-overlay"></div>
+    <img src="images/strategy/strategyArtboard 32.png" class="card-image" alt="be inspired by others">
+    <div class="card-details fadeIn-bottom">
+      <!-- <h3>be inspired by others</h3> -->
+      <p>This one is header free.</p>
     </div>
 
-    <div class="row triplet-card">
-      <img src="images/strategy/strategyArtboard 34.png" class="three columns s card-image">
+  </div>
+  <div class="three columns s card-container">
+    <div class="content-overlay"></div>
+    <img src="images/strategy/strategyArtboard 22.png" class="card-image" alt="be a minimalist">
+    <div class="card-details fadeIn-bottom">
+      <h3>be a minimalist</h3>
+      <p>sample text here! lorem ipsum blah blah blah</p>
     </div>
+  </div>
+  <div class="three columns s card-container">
+    <div class="content-overlay"></div>
+    <img src="images/strategy/strategyArtboard 11.png" class="card-image" alt="break it down">
+    <div class="card-details fadeIn-bottom">
+      <h3>break it down!</h3>
+      <p>sample text here! lorem ipsum blah blah blah</p>
+    </div>
+  </div>
+</div>
+
+<div class="row row-card">
+  <div class="three columns s card-container">
+      <div class="content-overlay"></div>
+      <img src="images/strategy/strategyArtboard 15.png" class="card-image" alt="search online">
+      <div class="card-details fadeIn-bottom">
+        <h3>search online</h3>
+        <p>This one has a header!</p>
+      </div>
+  </div>
+  <div class="three columns s card-container">
+    <div class="content-overlay"></div>
+    <img src="images/strategy/strategyArtboard 13.png" class="card-image" alt="help a friend">
+    <div class="card-details fadeIn-bottom">
+      <!-- <h3>be inspired by others</h3> -->
+      <p>This one is header free.</p>
+    </div>
+
+  </div>
+  <div class="three columns s card-container">
+    <div class="content-overlay"></div>
+    <img src="images/strategy/strategyArtboard 14.png" class="card-image" alt="remix a project">
+    <div class="card-details fadeIn-bottom">
+      <h3>remix a project</h3>
+      <p>sample text here! lorem ipsum blah blah blah</p>
+    </div>
+  </div>
+  <div class="three columns s card-container">
+    <div class="content-overlay"></div>
+    <img src="images/strategy/strategyArtboard 16.png" class="card-image" alt="just keep going">
+    <div class="card-details fadeIn-bottom">
+      <h3>just keep going!</h3>
+      <p>sample text here! lorem ipsum blah blah blah</p>
+    </div>
+  </div>
+</div>
+
+<!-- COPY THE NEXT ROW -->
+
+<div class="row row-card">
+  <div class="three columns s card-container">
+      <div class="content-overlay"></div>
+      <img src="images/strategy/strategyArtboard 17.png" class="card-image" alt="post a question online">
+      <div class="card-details fadeIn-bottom">
+        <h3>post a question online</h3>
+        <p>Ask in Help with Scripts.</p>
+      </div>
+  </div>
+  <div class="three columns s card-container">
+    <div class="content-overlay"></div>
+    <img src="images/strategy/strategyArtboard 18.png" class="card-image" alt="make a small goal today">
+    <div class="card-details fadeIn-bottom">
+      <!-- <h3>be inspired by others</h3> -->
+      <p>This one is header free.</p>
+    </div>
+
+  </div>
+  <div class="three columns s card-container">
+    <div class="content-overlay"></div>
+    <img src="images/strategy/strategyArtboard 19.png" class="card-image" alt="figure out your style">
+    <div class="card-details fadeIn-bottom">
+      <h3>figure out your style</h3>
+      <p>sample text here! lorem ipsum blah blah blah</p>
+    </div>
+  </div>
+  <div class="three columns s card-container">
+    <div class="content-overlay"></div>
+    <img src="images/strategy/strategyArtboard 20.png" class="card-image" alt="talk it through">
+    <div class="card-details fadeIn-bottom">
+      <h3>talk it through</h3>
+      <p>sample text here! lorem ipsum blah blah blah</p>
+    </div>
+  </div>
+</div>
+
+<div class="row row-card">
+  <div class="three columns s card-container">
+      <div class="content-overlay"></div>
+      <img src="images/strategy/strategyArtboard 21.png" class="card-image" alt="work on an old project">
+      <div class="card-details fadeIn-bottom">
+        <h3>work on an old project</h3>
+        <p>This one has a header!</p>
+      </div>
+  </div>
+  <div class="three columns s card-container">
+    <div class="content-overlay"></div>
+    <img src="images/strategy/strategyArtboard 12.png" class="card-image" alt="organize your sprites">
+    <div class="card-details fadeIn-bottom">
+      <!-- <h3>be inspired by others</h3> -->
+      <p>This one is header free.</p>
+    </div>
+
+  </div>
+  <div class="three columns s card-container">
+    <div class="content-overlay"></div>
+    <img src="images/strategy/strategyArtboard 23.png" class="card-image" alt="compromise">
+    <div class="card-details fadeIn-bottom">
+      <h3>compromise</h3>
+      <p>sample text here! lorem ipsum blah blah blah</p>
+    </div>
+  </div>
+  <div class="three columns s card-container">
+    <div class="content-overlay"></div>
+    <img src="images/strategy/strategyArtboard 24.png" class="card-image" alt="tell a story">
+    <div class="card-details fadeIn-bottom">
+      <h3>tell a story</h3>
+      <p>sample text here! lorem ipsum blah blah blah</p>
+    </div>
+  </div>
+</div>
+
+<div class="row row-card">
+  <div class="three columns s card-container">
+      <div class="content-overlay"></div>
+      <img src="images/strategy/strategyArtboard 25.png" class="card-image" alt="check out what's trending">
+      <div class="card-details fadeIn-bottom">
+        <h3>check out what's trending</h3>
+        <p>This one has a header!</p>
+      </div>
+  </div>
+  <div class="three columns s card-container">
+    <div class="content-overlay"></div>
+    <img src="images/strategy/strategyArtboard 26.png" class="card-image" alt="remix something">
+    <div class="card-details fadeIn-bottom">
+      <!-- <h3>be inspired by others</h3> -->
+      <p>This one is header free.</p>
+    </div>
+
+  </div>
+  <div class="three columns s card-container">
+    <div class="content-overlay"></div>
+    <img src="images/strategy/strategyArtboard 27.png" class="card-image" alt="find a tutorial">
+    <div class="card-details fadeIn-bottom">
+      <h3>find a tutorial</h3>
+      <p>sample text here! lorem ipsum blah blah blah</p>
+    </div>
+  </div>
+  <div class="three columns s card-container">
+    <div class="content-overlay"></div>
+    <img src="images/strategy/strategyArtboard 28.png" class="card-image" alt="take a break">
+    <div class="card-details fadeIn-bottom">
+      <h3>take a break</h3>
+      <p>sample text here! lorem ipsum blah blah blah</p>
+    </div>
+  </div>
+</div>
+
+<div class="row row-card">
+  <div class="three columns s card-container">
+      <div class="content-overlay"></div>
+      <img src="images/strategy/strategyArtboard 29.png" class="card-image" alt="use the tips window">
+      <div class="card-details fadeIn-bottom">
+        <h3>search online</h3>
+        <p>This one has a header!</p>
+      </div>
+  </div>
+  <div class="three columns s card-container">
+    <div class="content-overlay"></div>
+    <img src="images/strategy/strategyArtboard 30.png" class="card-image" alt="ask a friend">
+    <div class="card-details fadeIn-bottom">
+      <!-- <h3>be inspired by others</h3> -->
+      <p>This one is header free.</p>
+    </div>
+
+  </div>
+  <div class="three columns s card-container">
+    <div class="content-overlay"></div>
+    <img src="images/strategy/strategyArtboard 31.png" class="card-image" alt="recruit a teammate">
+    <div class="card-details fadeIn-bottom">
+      <h3>remix a project</h3>
+      <p>sample text here! lorem ipsum blah blah blah</p>
+    </div>
+  </div>
+  <div class="three columns s card-container">
+    <div class="content-overlay"></div>
+    <img src="images/strategy/strategyArtboard 10.png" class="card-image" alt="make a checklist">
+    <div class="card-details fadeIn-bottom">
+      <h3>just keep going!</h3>
+      <p>sample text here! lorem ipsum blah blah blah</p>
+    </div>
+  </div>
+</div>
+
+<div class="row row-card">
+  <div class="three columns s card-container">
+      <div class="content-overlay"></div>
+      <img src="images/strategy/strategyArtboard 34.png" class="card-image" alt="answer someone's question">
+      <div class="card-details fadeIn-bottom">
+        <h3>answer someone's question</h3>
+        <p>This one has a header!</p>
+      </div>
+  </div>
+</div>
 
 
   <div class="footer">
