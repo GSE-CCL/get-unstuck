@@ -1,0 +1,18 @@
+/* Index.html specific CSS */
+
+.container-splash{
+  background-color: #5bc6e4;
+  flex: 1;
+}
+
+.splash{
+  padding: 1em 3em 1em 3em;
+  font-size: 1.1em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#header-img{
+  width: 105%;
+  padding-top: 3em;
+}

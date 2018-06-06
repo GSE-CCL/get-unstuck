@@ -1,32 +1,16 @@
-/* CSS Document */
-/* @font-face {
-    font-family: ITC Grouch;
-    src: url("/fonts/GrouchITCbyBT-Regular.otf") format("opentype");
-} */
+/* MAIN CSS Document */
 
+
+/* RESPONSIVE FONT SIZES */
 html {
   font-size: 16px;
 }
-/* @media screen and (min-width: 320px) {
-  html {
-    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
-  }
-} */
-/* @media screen and (min-width: 1000px) {
-  html {
-    font-size: 22px;
-  }
-} */
 
 /* Larger than mobile */
 @media (min-width: 400px) {
   html {
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
   }
-
-  /* .card-container{
-    margin-bottom: 4%;
-  } */
 
 }
 
@@ -44,10 +28,6 @@ html {
     font-size: calc(16px + 6 * ((100vw - 600px) / 680));
   }
 
-  /* .splash{
-    height: calc(50vh);
-  } */
-
 }
 
 /* Larger than desktop */
@@ -55,10 +35,6 @@ html {
   html {
     font-size: 22px;
   }
-  /* .splash{
-    height: calc(50vh);
-  } */
-
 }
 
 /* Larger than Desktop HD */
@@ -66,17 +42,12 @@ html {
   html {
     font-size: 22px;
   }
-/*
-  .splash{
-    height: calc(58vh + 2rem);
-  } */
 
 }
 
 html, body {
   height: 100%;
 }
-/* not sure if this works? */
 
 body{
   display: flex;
@@ -86,12 +57,6 @@ body{
 
 .container{
   flex: 1 0 auto;
-  /* min-height: 100vh; */
-}
-
-.container-splash{
-  background-color: #5bc6e4;
-  flex: 1;
 }
 
 .nav {
@@ -115,6 +80,22 @@ body{
   display: flex;
 }
 
+.nav-link a{
+	color: white;
+	text-decoration: none;
+	padding-right: 3em;
+}
+
+.logo{
+	max-width: 4em;
+	max-height: 4em;
+}
+
+.logo-container{
+	padding: 1em 3em 0em 2em;
+}
+
+/* mobile version of nav (changes to vertical list) */
 @media only screen and (max-width: 768px) {
   .logo{
     width: 64px;
@@ -133,59 +114,30 @@ body{
 		display: flex;
 		flex-direction: column;
   }
-
   .nav-link a{
     text-display: none;
   }
 
-}
-
-.nav-link a{
-	color: white;
-	text-decoration: none;
-	padding-right: 3em;
-}
-
-.logo{
-	max-width: 4em;
-	max-height: 4em;
-}
-
-.logo-container{
-	padding: 1em 3em 0em 2em;
-}
+} /* end of mobile version */
 
 .header{
 	background-color: #5bc6e4;
-  /* flex: 1 0 auto; */
 }
-
-.splash{
-  padding: 6em 3em 0em 3em;
-  font-size: 1.1em;
-  display: flex;
-  /* height: calc(58vh + 1rem); */
-  flex-wrap: wrap;
-}
-
-
 
 .footer{
 	text-align:center;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	background-color: #f9d433;
-  /* height: 50px; */
   flex-shrink: 0;
-  /* position:absolute;
-  bottom:0; */
 }
-
 
 .footer p{
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
+/*
+some font-specific stuff */
 
 h4{
 	font-family: 'Gastromond', 'Futura PT Bold', 'serif';
@@ -205,12 +157,6 @@ a {
 
 a:hover, a:focus  {
 	color: #357099;
-}
-
-
-#header-img{
-  width: 105%;
-  padding-top: 3em;
 }
 
 .page-title h4{
@@ -239,100 +185,8 @@ a:hover, a:focus  {
   margin-bottom: 0;
 }
 
-.form {
-  padding: 0em 3em 0em 3em;
-}
 
-.form-input {
-  width: 24em;
-  height: 5em;
-}
-
-.form-container{
-  width: 50%;
-}
-
-.form-section{
-  padding-top: 0.5rem;
-}
-
-.form-checkboxes ul li:first-child {
-  margin-top: 0.5em;
-}
-
-.form-checkboxes ul li {
-  margin-bottom: 0;
-}
-
-.form-checkboxes ul li label {
-  display: inline;
-  padding-left: 1em;
-}
-
-input{
-  margin-bottom: 0em;
-}
-
-#signup{
-	background-color: whitesmoke;
-	margin-bottom: 2em;
-}
-
-.row-card{
-  /* padding: 0em 3em 3em 3em; */
-  padding: 0rem 2rem 4% 2rem;
-}
-
-.row-card-last{
-  /* padding: 0em 3em 3em 3em; */
-  padding: 0rem 2rem 4% 2rem;
-}
-
-/* not sure if I need triplet-card and triplet to work... */
-.triplet-card{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	padding: 0em 3em 3em 3em;
-}
-
-.triplet{
-	display: flex;
-	flex-direction: row;
-	padding: 3em 3em 3em 3em;
-}
-
-.twin-card{
-	display: flex;
-	flex-direction: row;
-	padding: 0em 3em 3em 3em;
-}
-
-.snapshot{
-	padding: 1em;
-	margin-left: 6em;
-	margin-right: 6em;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	font-weight: 400;
-	font-family: "p22-underground", "futura-pt", Helvetica, "sans-serif";
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	position: relative;
-	flex-wrap: wrap;
-	width: 200px;
-	height: 250px;
-	box-sizing: border-box;
-
-}
-
-.snapshot a{
-	text-decoration: none;
-/*	margin: 0 auto;*/
-}
-
+/* COLORS FOR BORDERS OF ELEMENTS */
 .m{
 	border-color: #de51e0;
 	border-style: solid;
@@ -340,168 +194,21 @@ input{
 }
 
 .s{
-	border-color: #f9d433;
+	border-color: #f9d433; /* yellow */
 	border-style: solid;
 	border-width: thick;
 }
 
 .pr{
-	border-color: #f5ab2b;
+	border-color: #f5ab2b; /* purple */
 	border-style: solid;
 	border-width: thick;
 }
 
-.card-name {
-	font-family:"p22-underground", "futura-pt", Helvetica, "sans-serif";
-	font-weight: 600;
-/*	margin-bottom: 2em;*/
-	/* margin-top: 2em;
-	padding-top: 8em; */
-	position: relative;
-}
-
-.card-image {
-  width: 100%;
-}
-
-
-.card-page-img img{
-	width: 35%;
-	height: 50%;
-	display: block;
-	margin: 0 auto;
-
-}
-
-.card-page-img{
-	padding-top: 2em;
-	padding-left: 3em;
-}
-
 .page-img img{
 	width: 35%;
 	height: 50%;
 	display: block;
 	margin: 0 auto;
 
-}
-
-.card-page-img{
-	padding-top: 2em;
-	padding-left: 3em;
-}
-
-.page-img img{
-	padding: 0em 3em 0em 3em;
-	width: 35%;
-	height: 50%;
-	display: block;
-}
-
-.challenge{
-	padding: 1em;
-/*	margin-top: 10em;*/
-	margin-left: 6em;
-	margin-right: 6em;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	font-weight: 400;
-	font-family: "p22-underground", "futura-pt", Helvetica, "sans-serif";
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	position: relative;
-	flex-wrap: wrap;
-	box-sizing: border-box;
-}
-
-.challenge img{
-	width: 75%;
-}
-
-.challenge-text h2{
-	font-family: 'Gastromond', 'Futura PT Bold', 'serif';
-	font-size: 2em;
-}
-
-/* Hover stuff is from this codepen: https://codepen.io/ArnaudBalland/pen/vGZKLr */
-
-.card-container .content-overlay {
-  background: #f9d433;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0;
-  -webkit-transition: all 0.4s ease-in-out 0s;
-  -moz-transition: all 0.4s ease-in-out 0s;
-  transition: all 0.4s ease-in-out 0s;
-}
-
-.card-container{
-  position: relative;
-  width: 100%;
-  /* margin-left: 4%; */
-  overflow: hidden;
-}
-
-@media only screen and (max-width: 768px) {
-  .card-container{
-    margin-bottom: 4%;
-  }
-
-/* + figure out mobile functionality. Tap to show??
-+ make font size bigger */
-
-}
-
-#splash{
-  padding-bottom: 10em;
-}
-
-.card-container:hover .content-overlay {
-  opacity: 1;
-}
-
-.card-details{
-  position: absolute;
-  text-align: center;
-  padding: 2em 2em 1em 2em;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  opacity: 0;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-.card-container:hover .card-details{
-  top: 50%;
-  left: 50%;
-  opacity: 1;
-}
-
-.fadeIn-bottom{
-  top: 80%;
-}
-
-.card-details p{
-  font-size: 0.6rem;
-}
-
-.card-details h3{
-  color: #fff;
-  font-size: 0.6rem;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  margin-bottom: 0.5em;
-  text-transform: uppercase;
 }

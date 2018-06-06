@@ -1,0 +1,44 @@
+/* Card.html css */
+
+.card-page-img img{
+	width: 35%;
+	height: 50%;
+	display: block;
+	margin: 0 auto;
+  padding-top: 2em;
+  padding-left: 3em;
+}
+
+.card-snapshot a{
+	text-decoration: none;
+}
+
+.card-snapshot{
+	padding: 1em;
+	margin-left: 6em;
+	margin-right: 6em;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-weight: 400;
+	font-family: "p22-underground", "futura-pt", Helvetica, "sans-serif";
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	flex-wrap: wrap;
+	width: 200px;
+	height: 250px;
+	box-sizing: border-box;
+}
+
+.twin-card{
+	display: flex;
+	flex-direction: row;
+	padding: 0em 3em 3em 3em;
+}
+
+/* .card-page-img{
+	padding-top: 2em;
+	padding-left: 3em;
+} */
