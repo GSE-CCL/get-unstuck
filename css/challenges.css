@@ -1,5 +1,15 @@
 /* challenges.html css */
 
+.container-challenge{
+  flex: 1;
+}
+
+.splash{
+  display: flex;
+  flex-wrap: wrap;
+	padding-bottom: 10rem;
+}
+
 .challenge{
 	padding: 1em;
 	margin-left: 6em;
@@ -24,4 +34,5 @@
 .challenge-text h2{
 	font-family: 'Gastromond', 'Futura PT Bold', 'serif';
 	font-size: 2em;
+	letter-spacing: 1px;
 }
