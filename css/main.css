@@ -146,6 +146,8 @@ h4{
 
 h5{
   margin-bottom: 0rem;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 /* Link transition for hover (increasing accessibility) */
