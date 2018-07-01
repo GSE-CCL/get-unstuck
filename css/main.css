@@ -12,6 +12,9 @@ html {
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
   }
 
+  .nav-1 {
+    order: 1;
+  }
 }
 
 /* Larger than phablet (also point when grid becomes active) */
@@ -119,6 +122,23 @@ body{
   }
 
 } /* end of mobile version */
+
+/* iphoneX-specific media query */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+
+  .nav-1 {
+    order: 1;
+  }
+
+}
+/* end of iphoneX-specific media query */
 
 .header{
 	background-color: #5bc6e4;
