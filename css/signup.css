@@ -18,6 +18,11 @@
   padding-top: 0.5rem;
 }
 
+.form-checkboxes{
+  padding-top: 0.5rem;
+  font-weight: 600;
+}
+
 .form-checkboxes ul li:first-child {
   margin-top: 0.5em;
 }
