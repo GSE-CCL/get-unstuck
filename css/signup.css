@@ -44,3 +44,9 @@ input{
 	background-color: whitesmoke;
 	margin-bottom: 2em;
 }
+
+.mc-embedded-subscribe{
+  text-indent: 0%;
+  width: 45%;
+  padding: 4px 0px 4px 0px;
+}
