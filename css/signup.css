@@ -45,7 +45,7 @@ input{
 	margin-bottom: 2em;
 }
 
-.subscribe-button{
+#subscribe-button{
   text-indent: 0%;
   width: 45%;
   padding: 4px 0px 4px 0px;
